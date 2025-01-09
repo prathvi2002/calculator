@@ -1,3 +1,15 @@
+## Multi-Language Calculator Project
+
+Creating a multi-language calculator project requires coordinating between different languages. The architecture involves using one main "driver" language (Python) to call other language-specific modules. Below is an overview of the architecture:
+
+### Architecture
+
+- **Python**: Acts as the main program and performs addition.
+- **C**: Handles subtraction via a shared library.
+- **JavaScript**: Manages division, executed using a JavaScript engine like Node.js.
+- **Lua**: Performs multiplication using an embedded Lua interpreter (e.g., `lupa` or `lunatic-python` in Python).
+
+
 # calculator
 A multi-language calculator project that uses Python for addition, C for subtraction, JavaScript for division, and Lua for multiplication, showcasing cross-language integration.
 
